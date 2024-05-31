@@ -1,5 +1,8 @@
-# For Day 2 
+# For Day 3
 
-- Clipped and reprojected layers using the batch processing tool
+- Created a spatial join of national highways by district and computed spatial statistics by the **_DISTRICT_** attribute [*national_highways_by_district* layer]
 
-All layers are within the **clipped.gpkg** file
+- Formatted the above layer to keep only the **_district_** and **_total_length_** (rounded to integer) attributes [*national_highways_by_district_formatted* layer]
+
+
+All layers are within the **karnataka.gpkg** file
